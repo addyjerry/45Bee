@@ -1,0 +1,96 @@
+#Game p {
+  font-size: 2rem;
+  text-align: center;
+}
+#Game h2 {
+  margin-left: 40%;
+  font-size: 50px;
+}
+#boxes {
+  display: flex;
+  margin: 20px;
+  padding: auto;
+  margin-left: 40%;
+}
+#box1 {
+  width: 3rem;
+  height: 5rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 4rem;
+}
+#box2 {
+  width: 3rem;
+  height: 5rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 4rem;
+}
+#box3 {
+  width: 3rem;
+  height: 5rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 4rem;
+}
+#Game img {
+  margin: 1rem;
+  margin-left: 40%;
+}
+
+button {
+  margin-left: 40%;
+  width: 10rem;
+  height: 4rem;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  animation: btnanimation infinite 5s;
+}
+
+@keyframes btnanimation {
+  0% {
+    border-color: black;
+  }
+  50% {
+    border-color: yellow;
+  }
+  90% {
+    border-color: red;
+  }
+}
+
+/**MEDIA **/
+/**mobile **/
+@media (max-width: 600px) {
+  #Game h2 {
+    margin-left: 10%;
+    font-size: 2rem;
+  }
+  #Game p {
+    font-size: 13px;
+    text-align: left;
+  }
+  #boxes {
+    margin: 0px;
+    padding: auto;
+    margin-left: 5%;
+  }
+  #Game img {
+    margin: 1rem;
+    margin-left: 5%;
+  }
+  button {
+    margin-left: 10%;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 8px;
+  }
+}
+/**tablet **/
+@media (min-width: 601px) and (max-width: 1024px) {
+}

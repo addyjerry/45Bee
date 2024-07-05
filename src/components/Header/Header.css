@@ -1,0 +1,70 @@
+#Header {
+  display: flex;
+}
+#darkmode {
+  background-color: white;
+}
+#dark {
+  margin-top: 14rem;
+  font-size: 2rem;
+  margin-left: -3.5rem;
+}
+
+#bade {
+  display: flex;
+  margin-top: -7rem;
+}
+#banner {
+  margin-top: -5rem;
+}
+#mine {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 15rem;
+  float: left;
+  margin-left: 5rem;
+  margin-top: 10rem;
+  margin-right: -5rem;
+}
+#delivery {
+  width: 15rem;
+  height: 15rem;
+  margin-top: 5rem;
+  margin-left: -2rem;
+}
+
+/**MEDIA **/
+/**mobile **/
+@media (max-width: 600px) {
+  #mine {
+    width: 3rem;
+    height: 3rem;
+    margin-left: -5px;
+    margin-top: 8rem;
+    margin-right: -2rem;
+  }
+  #Banner {
+    width: 10rem;
+    margin-top: 4rem;
+    margin-left: 0rem;
+    height: 11rem;
+  }
+  #dark {
+    display: none;
+  }
+  #delivery {
+    width: 5rem;
+    height: 5rem;
+    margin-top: 8rem;
+    margin-left: -2rem;
+  }
+}
+
+/**tablet **/
+@media (min-width: 601px) and (max-width: 1024px) {
+  #mine {
+    margin-left: 0;
+    margin-top: 10rem;
+    margin-right: -5rem;
+  }
+}

@@ -1,0 +1,80 @@
+#Second {
+  display: flex;
+  font-size: 2rem;
+}
+#text {
+  background-color: rgb(225, 226, 226);
+  width: 40rem;
+  height: 35rem;
+  border-radius: 10px;
+}
+#text p {
+  margin: 2rem;
+}
+#computer {
+  margin: 5rem;
+}
+
+#computer h3 {
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(208, 212, 216);
+  margin-left: 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: -1rem;
+}
+
+/**MEDIA **/
+/**mobile **/
+@media (max-width: 600px) {
+  #Second {
+    font-size: 12px;
+    margin-top: -2rem;
+    display: block;
+  }
+  #text {
+    width: 12.5rem;
+    height: 15.5rem;
+    border-radius: 10px;
+  }
+  #text p {
+    margin: 10px;
+  }
+  #computer {
+    margin: 1rem;
+  }
+  #computer img {
+    width: 6rem;
+    margin-top: 0rem;
+  }
+  #computer h3 {
+    margin-left: 13px;
+    text-align: center;
+    margin-top: -0.5rem;
+    width: 5rem;
+    height: 2rem;
+    font-size: 1.3rem;
+  }
+}
+
+/**tablet **/
+@media (min-width: 601px) and (max-width: 1024px) {
+  #text {
+    width: 40rem;
+    height: 40rem;
+  }
+  #text p {
+    margin: 2rem;
+  }
+  #computer {
+    margin: 0rem;
+  }
+  #computer h3 {
+    margin-left: 10px;
+    width: 10rem;
+  }
+  #computer img {
+    margin-left: -10px;
+  }
+}
