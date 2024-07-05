@@ -29,13 +29,13 @@
 /**mobile **/
 @media (max-width: 600px) {
   #Second {
-    font-size: 12px;
+    font-size: 1.3rem;
     margin-top: -2rem;
     display: block;
   }
   #text {
-    width: 12.5rem;
-    height: 15.5rem;
+    width: 22rem;
+    height: 25rem;
     border-radius: 10px;
   }
   #text p {
@@ -43,16 +43,17 @@
   }
   #computer {
     margin: 1rem;
+    text-align: center;
   }
   #computer img {
-    width: 6rem;
+    width: 10rem;
     margin-top: 0rem;
   }
   #computer h3 {
-    margin-left: 13px;
+    margin-left: 6.3rem;
     text-align: center;
     margin-top: -0.5rem;
-    width: 5rem;
+    width: 7rem;
     height: 2rem;
     font-size: 1.3rem;
   }

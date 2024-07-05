@@ -68,24 +68,24 @@ button {
 /**mobile **/
 @media (max-width: 600px) {
   #Game h2 {
-    margin-left: 10%;
+    margin-left: 25%;
     font-size: 2rem;
   }
   #Game p {
-    font-size: 13px;
+    font-size: 2rem;
     text-align: left;
   }
   #boxes {
     margin: 0px;
     padding: auto;
-    margin-left: 5%;
+    margin-left: 20%;
   }
   #Game img {
     margin: 1rem;
-    margin-left: 5%;
+    margin-left: 20%;
   }
   button {
-    margin-left: 10%;
+    margin-left: 30%;
     width: 6rem;
     height: 3rem;
     border-radius: 8px;

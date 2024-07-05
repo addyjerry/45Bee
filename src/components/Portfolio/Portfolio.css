@@ -44,20 +44,20 @@
     margin-top: 10px;
   }
   #Portfolio img {
-    width: 3rem;
-    height: 3rem;
+    width: 6rem;
+    height: 6rem;
   }
   #first {
     margin: 10px;
-    font-size: 7px;
+    font-size: 15px;
   }
   #second {
     margin: 10px;
-    font-size: 7px;
+    font-size: 15px;
   }
   #third {
     margin: 10px;
-    font-size: 7px;
+    font-size: 15px;
   }
   #visit {
     display: none;
